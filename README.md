@@ -2,7 +2,8 @@
 
 > A Vue.js project
 
-> 基于Vue2.0在PC端编写的商品购物平台
+> 基于Vue2.0编写的PC端商品购物平台，主要划分为以下几个方面：
+组件、Vue相关概念(参考官方api)、功能接口，vue-cli环境搭建和vue-router等常用插件安装和配置、Vuex插件的安装和使用
 
 ## Build Setup
 
