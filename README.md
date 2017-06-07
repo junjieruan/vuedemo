@@ -1,6 +1,7 @@
 # vuedemo
 
 > A Vue.js project
+> 基于Vue2.0在PC端编写的商品购物平台
 
 ## Build Setup
 
