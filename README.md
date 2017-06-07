@@ -1,6 +1,6 @@
 # vuedemo
 
-> A Vue.js project
+> A Vue.js project 来自于慕课网《带你入门Vue2.0及案例开发》demo
 
 > 基于Vue2.0编写的PC端商品购物平台，主要划分为以下几个方面：
 组件、Vue相关概念(参考官方api)、功能接口，vue-cli环境搭建和vue-router等常用插件安装和配置、Vuex插件的安装和使用
