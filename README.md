@@ -7,7 +7,8 @@
 
 ``` bash
 # 组件
-父子组件之间的通信：父->子，子组件中的props选项；子->父，子组件中$emit
+1.父子组件之间的通信：父->子，子组件中的props选项；子->父，子组件中$emit
+2.单文件组件(template和style和script在一个vue文件中，有利于组件化)
 
 # Vue相关概念(参考官方api)
 1.全局api：	Vue.component用于添加全局组件；Vue.use用于注册Vue-Router，Vuex等插件，然后方能使用
@@ -17,13 +18,36 @@
 5.内置组件
 
 # 功能接口
-1.自定义事件绑定：子组件中触发事件时通过$emit调用父组件中自定义的事件并传参
-2.表单事件绑定：表单数据双向绑定v-model，各种修饰符
-3.单多选下拉框
+1.标签属性v-bind和条件渲染v-if/v-show
+2.循环v-for
+3.内置事件绑定v-on
+4.自定义事件绑定：子组件中触发事件时通过$emit调用父组件中自定义的事件并传参
+5.表单事件绑定：表单数据双向绑定v-model，各种修饰符
+6.单多选下拉框
 计算属性computed选项和数据监听watch选项
-4.父组件内容插到子组件：slot插槽
-5.内置组件transition：CSS实现过渡效果或JS实现过渡效果
-6.自定义指令
+7.父组件内容插到子组件：slot插槽
+8.内置组件transition：CSS实现过渡效果或JS实现过渡效果
+9.自定义指令
+
+# vue-cli脚手架安装
+1.cmd命令行中 npm install -g vue-cli  . (执行vue看是否安装vue-cli成功)
+2.cmd进入想生成项目的路径,执行vue init webpack vuejs-2.0
+3.一路回车，后面三个选No即创建项目成功
+4.进入项目路径，执行npm install安装package，然后执行npm run dev运行项目(在localhost启动测试服务器)或者执行npm run build生成上线目录(部署)
+
+# vue-router路由安装
+项目路径下执行:npm install vue-router
+
+# vue-resource实现ajax获取数据
+cnpm install vue-resource 安装Vue-resource
+
+# Vuex实现全局变量的控制
+项目路径下执行:npm install vuex
+
+# json-server模拟数据
+1.cnpm install json-server 安装json-server
+2.在build/dev-server.js中添加json-server的配置
+3.在config/index.js中配置代理选项
 ```
 
 ## Build Setup
